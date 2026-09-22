@@ -10,14 +10,12 @@ add_library(Adam)
 target_sources(Adam
     PRIVATE
         src/scene_manager.cpp
-        src/game_settings.cpp
     PUBLIC
         FILE_SET HEADERS
         BASE_DIRS "${CMAKE_CURRENT_SOURCE_DIR}/include"
         FILES
             include/adam/scene_manager.h
             include/adam/scene.h
-            include/adam/game_settings.h
 )
 
 target_include_directories(Adam PUBLIC
