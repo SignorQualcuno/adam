@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.23)
-project(Adam VERSION 0.1.1 LANGUAGES CXX)
+project(Adam VERSION 0.1.2 LANGUAGES CXX)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
